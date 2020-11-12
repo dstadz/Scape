@@ -1,4 +1,6 @@
 import React from 'react'
+import { A } from 'hookrouter'
+
 import { LandingPageContainer } from  './styles'
 
 const LandingPage = () => {
@@ -6,7 +8,7 @@ const LandingPage = () => {
     <LandingPageContainer>
       <h1> Scape </h1>
       <h2> Start your journey now </h2>
-      <button> Sign Up </button>
+      <button><A href='/signup'> Sign Up </A></button>
     </LandingPageContainer>
   )
 }

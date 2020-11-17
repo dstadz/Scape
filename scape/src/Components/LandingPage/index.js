@@ -9,6 +9,8 @@ const LandingPage = () => {
       <h1> Scape </h1>
       <h2> Start your journey now </h2>
       <button><A href='/signup'> Sign Up </A></button>
+      <br />
+      <button><A href='/dashboard'> dashboard </A></button>
     </LandingPageContainer>
   )
 }

@@ -3,12 +3,12 @@ import React  from "react";
 
 import LandingPage from '../Components/LandingPage'
 import SignUp from "../Components/SignInUp/SignUp";
-
-// const routes = ['/', 'about', 'contacts', 'projects', 'resume', 'sortingAlgorithms' ]
+import DashBoard from '../Pages/DashBoard'
 
 
 const routes = {
   '/': () => <LandingPage />,
-  '/signup': () => <SignUp />
+  '/signup': () => <SignUp />,
+  '/dashboard': () => <DashBoard />
 }
 export default routes

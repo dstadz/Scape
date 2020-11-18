@@ -3,18 +3,12 @@ import { useRoutes } from 'hookrouter';
 import { useRecoilState } from 'recoil';
 import { A } from 'hookrouter'
 
-// import Nav from './components/Nav'
-// import Footer from './components/Footer'
-
 import { Body } from './styles'
-// import { hueState } from './utils/store'
 import routes from './Routes'
-// import DashBoard from "./Pages/DashBoard";
 
-
+const links = ['signup','dashboard']
 const App = () => {
   let match = useRoutes(routes)
-  console.log(match)
   return (
     <Body>
       <div>
@@ -27,8 +21,8 @@ const App = () => {
           </li>
         ))}
         <li key={'landingpage'}>
-            <A href={`/`} > landingpage </A>
-          </li>
+          <A href={`/`} > landingpage </A>
+        </li>
       </ul>
     </Body>
   );

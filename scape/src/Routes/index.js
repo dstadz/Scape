@@ -1,7 +1,7 @@
 import React  from "react";
 // import { Route } from "react-router-dom";
 
-import LandingPage from '../Components/LandingPage'
+import LandingPage from '../Pages/LandingPage'
 import SignUp from "../Components/SignInUp/SignUp";
 import DashBoard from '../Pages/DashBoard'
 

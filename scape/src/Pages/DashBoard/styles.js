@@ -11,5 +11,7 @@ export const LeftBar = styled.div`
 `
 export const RightSquare = styled.div`
   background: blue;
+  max-width: 500px;
+  max-height: 500px;
 
 `

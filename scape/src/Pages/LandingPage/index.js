@@ -6,7 +6,10 @@ import { LandingPageContainer } from  './styles'
 const LandingPage = () => {
   return (
     <LandingPageContainer>
+    <nav>
       <h1> Scape </h1>
+
+    </nav>
       <h2> Start your journey now </h2>
       <button><A href='/signup'> Sign Up </A></button>
       <br />

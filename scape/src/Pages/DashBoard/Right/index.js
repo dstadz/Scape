@@ -6,7 +6,7 @@ import { RightSquare } from '../styles'
 const Right = () => {
   return (
     <RightSquare>
-      <Map />
+      {/* <Map /> */}
     </RightSquare>
   )
 }
